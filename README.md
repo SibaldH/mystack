@@ -1,25 +1,19 @@
 ## Getting Started
 
-First clone the project.
+1. Create a new project based on my template
 
 ```
-git clone https://github.com/SibaldH/mystack.git
+npx create-next-app https://github.com/SibaldH/mystack [PROJECT_NAME]
 ```
 
-Then install the dependencies:
+2. run the server:
 
 ```
-cd mystack-2024
-npm i
-```
-
-Then run the server:
-
-```
+cd mystack
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+3. Open [http://localhost:3000](http://localhost:3000).
 
 # My web programming stack of 2024
 
