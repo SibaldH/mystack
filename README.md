@@ -9,7 +9,11 @@ npx create-next-app https://github.com/SibaldH/mystack [PROJECT_NAME]
 2. run the server:
 
 ```
+<<<<<<< HEAD
 cd mystack
+=======
+cd [PROJECT_NAME]
+>>>>>>> main
 npm run dev
 ```
 
