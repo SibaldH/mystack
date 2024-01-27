@@ -25,11 +25,10 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 This programming stack contains:
 
-- [supabase](https://supabase.com)
 - [nextjs](https://nextjs.org)
-- [react](https://reactjs.org)
 - [tailwind](https://tailwindcss.com)
 - [typescript](https://www.typescriptlang.org)
+- [supabase](https://supabase.com)
+- [shadcn-ui](https://ui.shadcn.com)
 - [zod](https://zod.dev)
-- [radix-ui/icons](https://radix-ui.com)
-- [shadcn-ui](https://shadcn.com)
+- [radix-ui/icons](https://radix-ui.com/icons)
