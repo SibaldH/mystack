@@ -3,17 +3,13 @@
 1. Create a new project based on my template
 
 ```
-npx create-next-app https://github.com/SibaldH/mystack [PROJECT_NAME]
+npx create-next-app --example https://github.com/SibaldH/mystack [PROJECT_NAME]
 ```
 
 2. run the server:
 
 ```
-<<<<<<< HEAD
-cd mystack
-=======
 cd [PROJECT_NAME]
->>>>>>> main
 npm run dev
 ```
 
