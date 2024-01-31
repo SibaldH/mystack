@@ -4,13 +4,16 @@ import { KeyRound } from "lucide-react";
 import { FaGithub } from "react-icons/fa6";
 import { FaGoogle } from "react-icons/fa";
 import { supabaseBrowser } from "@/lib/supabase/browser";
+import { useSearchParams } from "next/navigation";
 
 export default function AuthPage() {
+  const params = useSearchParams()
+  const next = params.get("next")
   const handleLoginOAuth = (provider: "github" | "google") => {
     const supabase = supabaseBrowser();
     supabase.auth.signInWithOAuth({
       provider,
-      options: { redirectTo: location.origin + "/auth/callback" },
+      options: { redirectTo: location.origin + "/auth/callback?next=" + next},
     }); // TODO: InWithOAuth({ provider });
   };
 
